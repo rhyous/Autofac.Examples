@@ -44,15 +44,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfAndAutofac.JitInjection", "src\WcfAndAutofac.JitInjection\WcfAndAutofac.JitInjection.csproj", "{0ECF5725-B840-40C1-8352-4AC15059AF9A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scope", "Scope", "{E3ED60C7-9493-4271-A9AC-B353EE95C558}"
-	ProjectSection(SolutionItems) = preProject
-		src\AutofacScopeExample\ScopeExample.sln = src\AutofacScopeExample\ScopeExample.sln
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericExample", "src\AutofacGenericExample\GenericExample.csproj", "{660E44CC-6255-4FD7-A21C-659B6AB28EC4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generics", "Generics", "{736078C6-09F0-4956-AE76-6118BA555382}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{A848B4E9-45AB-452B-8BBC-F55F35182379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacScopeExample", "src\AutofacScopeExample\AutofacScopeExample.csproj", "{33A05F11-372D-4003-9527-37519866C256}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -190,6 +189,14 @@ Global
 		{660E44CC-6255-4FD7-A21C-659B6AB28EC4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{660E44CC-6255-4FD7-A21C-659B6AB28EC4}.Release|x86.ActiveCfg = Release|Any CPU
 		{660E44CC-6255-4FD7-A21C-659B6AB28EC4}.Release|x86.Build.0 = Release|Any CPU
+		{33A05F11-372D-4003-9527-37519866C256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A05F11-372D-4003-9527-37519866C256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A05F11-372D-4003-9527-37519866C256}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{33A05F11-372D-4003-9527-37519866C256}.Debug|x86.Build.0 = Debug|Any CPU
+		{33A05F11-372D-4003-9527-37519866C256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A05F11-372D-4003-9527-37519866C256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A05F11-372D-4003-9527-37519866C256}.Release|x86.ActiveCfg = Release|Any CPU
+		{33A05F11-372D-4003-9527-37519866C256}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -202,6 +209,7 @@ Global
 		{477A33C0-33EE-4176-BA3F-7EF56B46A811} = {A848B4E9-45AB-452B-8BBC-F55F35182379}
 		{0ECF5725-B840-40C1-8352-4AC15059AF9A} = {17603FF5-6F89-4DBE-80F0-DBC9B5128ABD}
 		{660E44CC-6255-4FD7-A21C-659B6AB28EC4} = {736078C6-09F0-4956-AE76-6118BA555382}
+		{33A05F11-372D-4003-9527-37519866C256} = {E3ED60C7-9493-4271-A9AC-B353EE95C558}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.ExceptionHandling.5.0.505.0\lib\NET35;packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35
