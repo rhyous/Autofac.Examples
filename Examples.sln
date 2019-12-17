@@ -45,10 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfAndAutofac.JitInjection"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scope", "Scope", "{E3ED60C7-9493-4271-A9AC-B353EE95C558}"
 	ProjectSection(SolutionItems) = preProject
-		src\AutofacScopeExample\AutofacScopeExample.sln = src\AutofacScopeExample\AutofacScopeExample.sln
+		src\AutofacScopeExample\ScopeExample.sln = src\AutofacScopeExample\ScopeExample.sln
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacGenericExample", "src\AutofacGenericExample\AutofacGenericExample.csproj", "{660E44CC-6255-4FD7-A21C-659B6AB28EC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericExample", "src\AutofacGenericExample\GenericExample.csproj", "{660E44CC-6255-4FD7-A21C-659B6AB28EC4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generics", "Generics", "{736078C6-09F0-4956-AE76-6118BA555382}"
 EndProject
